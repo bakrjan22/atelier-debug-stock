@@ -2,7 +2,7 @@
 Nom : Jannane Baker
 
 | N° | Action pour reproduire | Résultat attendu / obtenu | Hypothèse et cause identifiée | Correction | Test après correction |
-| --- | --- | --- | --- | --- | --- |
+| 1 | champRecherche.addEventListener('keyup', afficherProduits); // keyup | --- | --- | --- | --- |
 champRecherche.addEventListener('keyup', afficherProduits); // keyup
 
 afficherProduits(); // ajout dans formulaire.addEventListener
