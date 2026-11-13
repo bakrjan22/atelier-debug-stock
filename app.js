@@ -1,3 +1,4 @@
+
 const produits = [
   { nom: "Clavier", quantite: 5 },
   { nom: "Souris", quantite: 8 },
@@ -46,11 +47,10 @@ formulaire.addEventListener("submit", function (event) {
   event.preventDefault();
   const nom = champNom.value;
   const quantite = champQuantite.value;
-
   console.log(champNom.value);
   
 
-  if (nom == "" || champQuantite == "") {
+  if (nom.trim() == "" || champQuantite == "") {
     message.textContent = "Renseignez le nom et la quantité.";
     return 0;
   }
