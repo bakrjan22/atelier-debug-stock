@@ -1,17 +1,12 @@
 # Journal de débogage
-Nom : Jannane Baker
+Nom : ....................................
 
 | N° | Action pour reproduire | Résultat attendu / obtenu | Hypothèse et cause identifiée | Correction | Test après correction |
-| 1 | champRecherche.addEventListener('keyup', afficherProduits); // keyup | --- | --- | --- | --- |
-champRecherche.addEventListener('keyup', afficherProduits); // keyup
-
-afficherProduits(); // ajout dans formulaire.addEventListener
-
-if (nom.value == "" || champQuantite.value == "") ||
-
-if (nom == "" || champQuantite == "") // remouved .value
-
-produits.push({ nom: nom, quantite: parseInt(quantite) }); // ajoute de parseInt(quantite)
-
+| --- | --- | --- | --- | --- | --- |
+| 1 | recherche | fix, recherche correctement / fix correct | event 'change' | champRecherche.addEventListener('keyup', afficherProduits); | recherche fonctionelle |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
 
 Bilan : quelle méthode réutiliserai-je sur mon prochain brief ?
